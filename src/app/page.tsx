@@ -1,3 +1,1 @@
-import { Main } from "@/pages/Main";
-
-export default Main;
+export { Main as default } from "@/my-pages/Main";
