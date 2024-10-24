@@ -4,7 +4,7 @@ import { type Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { type ReactNode } from "react";
 
-export const fontNunito = Nunito({
+const fontNunito = Nunito({
   weight: ["400", "600", "900"],
   subsets: ["latin", "cyrillic"],
   variable: "--font-nunito",
