@@ -1,7 +1,7 @@
-import "../styles/globals.css";
-import "../styles/reset.css";
 import { type Metadata } from "next";
 import { Nunito } from "next/font/google";
+import "@/client/styles/globals.css";
+import "@/client/styles/reset.css";
 import { type ReactNode } from "react";
 
 const fontNunito = Nunito({
