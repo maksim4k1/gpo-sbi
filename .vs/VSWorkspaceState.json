@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\SonyaPage",
+    "\\src\\pages",
+    "\\src\\pages\\Main",
+    "\\src\\pages\\Main\\components",
+    "\\src\\pages\\Main\\components\\Title",
+    "\\src\\pages\\Sonya",
+    "\\src\\pages\\Sonya\\components",
+    "\\src\\pages\\Sonya\\components\\Task"
+  ],
+  "SelectedNode": "\\src\\pages\\Sonya\\index.tsx",
+  "PreviewInSolutionExplorer": false
+}

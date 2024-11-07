@@ -1,0 +1,35 @@
+.pageContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 60vh; 
+    max-height: 80vh; 
+    padding: 20px;
+    position: relative; 
+    border-radius: 8px; 
+}
+
+.button {
+    top: 120px;
+    position: absolute;
+    width: 612px;
+    height: 71px;
+    right: 50px;
+    background-color: #F5D57F;
+    outline-color: #F5D57F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    font-family: "Nunito";
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    flex-direction: row;
+    border: none;
+}
+
+.button:hover {
+    background-color: #E1C474;
+ }

@@ -1,0 +1,14 @@
+.todo {
+    top: 41px;
+    left: 50px;
+    position: absolute;
+    width: 482px;
+    height: 82px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: "Nunito";
+    text-transform: uppercase;
+    font-size: 6em;
+    color: white;
+}
+
