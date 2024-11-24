@@ -1,0 +1,13 @@
+.signin_window {
+    margin:12.85rem auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 43.6rem;
+    height: 28.3rem;
+    background-color:var(--primary-color);
+    border: var(--primary-border);
+    border-radius: var(--primary-border-radius);
+  }
