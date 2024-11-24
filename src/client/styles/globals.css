@@ -1,7 +1,16 @@
+:root{
+  --primary-color: #8338EB;
+  --primary-border: 0.25rem, solid #44069A;
+  --primary-font-size: 20px;
+  --primary-border-radius: 3.5rem;
+  --promary-color-font: #FFFFFF;
+}
+
 body {
   font-family: var(--font-nunito);
-  font-size: 16px;
+  font-size: var(--primary-font-size);
   background-color: #ffffff;
-  color: #000000;
+  color: var(--promary-color-font);
   overflow-x: hidden;
+  cursor: pointer;
 }
