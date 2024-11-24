@@ -1,13 +1,13 @@
 "use client";
 import styles from "./page.module.css";
 import { type FC, useEffect, useState } from "react";
-import {InputField} from "../../../../componets/UI/Input-field";
-import { Button } from "../../../../componets/UI/button";
-import { useAppDispatch } from "../../../../hooks";
+import {InputField} from "@/client/components";
+import { Button } from "@/client/components";
+import { useAppDispatch } from "@/client/hooks";
 
-import { authActions, useLoginMutation } from "../../../../redux/features";
+import { authActions, useLoginMutation } from "@/client/redux/features";
 
-import { type LoginRequestData } from "../../../../../shared/types/api/auth";
+import { type LoginRequestData } from "@/shared/types/api/auth";
 
 export const SignIn: FC = () => {
   const [form,setForm] = useState<LoginRequestData>({
