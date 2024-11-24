@@ -3,7 +3,8 @@ import { Nunito } from "next/font/google";
 import "@/client/styles/globals.css";
 import "@/client/styles/reset.css";
 import { type ReactNode } from "react";
-
+import { StoreProvider } from "@/client/redux/store";
+import {initialState} from "@/shared/data"
 const fontNunito = Nunito({
   weight: ["400", "600", "900"],
   subsets: ["latin", "cyrillic"],
@@ -23,7 +24,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="ru">
-      <body className={fontNunito.variable}>{children}</body>
+      <body className={fontNunito.variable}><StoreProvider initialState={initialState} >{children}</StoreProvider></body>
     </html>
   );
 };

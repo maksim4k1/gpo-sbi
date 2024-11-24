@@ -1,0 +1,15 @@
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input_field{
+    width: 23.5rem;
+    height: 3rem;
+    background-color: #FFFFFF;
+    border-radius: var(--primary-border-radius);
+    padding: 1.11rem 1.5rem;
+}
+.input_label{
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
