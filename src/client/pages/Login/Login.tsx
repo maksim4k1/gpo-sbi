@@ -9,7 +9,7 @@ import { authActions, useLoginMutation } from "@/client/redux/features";
 
 import { type LoginRequestData } from "@/shared/types/api/auth";
 
-export const SignIn: FC = () => {
+export const Login: FC = () => {
   const [form,setForm] = useState<LoginRequestData>({
     telegramId: "",
     password: "",

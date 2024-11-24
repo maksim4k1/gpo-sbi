@@ -1,1 +1,1 @@
-export { Main as default } from "@/client/pages";
+export { Login as default } from "@/client/pages/Login";
